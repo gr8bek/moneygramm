@@ -33,7 +33,7 @@ elConverterForm.addEventListener("submit", function (evt) {
       "Sizda " + Math.floor(converterInput * SUM_TO_RUB) + " rubl bor.";
   }
 
-  var resultText = curencyChoosen;
+  var resultText = currencyChoosen;
 
   elConverterResultBox.textContent = resultText;
 });
